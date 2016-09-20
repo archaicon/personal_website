@@ -1,6 +1,7 @@
 body{
     margin: 0;
     padding: 0;
+    background-color: #2d2a2e;
 }
 
 #wrapper{
@@ -28,12 +29,6 @@ header {
 
 header p{
     color: #337ab7;
-}
-
-header p:hover{
-    color: #2b578c;
-    text-decoration: underline;
-    -webkit-transition: all 0.35s ease-in-out;
 }
 
 .shrink{
