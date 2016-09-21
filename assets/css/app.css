@@ -311,6 +311,8 @@ img{
 
 #links a:hover{
     color: #ff550f;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
 }
 
 .large-header {
