@@ -322,7 +322,7 @@ img{
     z-index: 1;
 }
 
-.main-title {
+#main-title {
     font-family: 'Josefin Slab', sans-serif;
     letter-spacing: 3px;
     font-size: 45px;
@@ -338,7 +338,7 @@ img{
     transform: translate3d(-50%, -50%, 0);
 }
 
-.main-title .explain {
+#main-title .explain {
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
 }

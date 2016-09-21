@@ -42,7 +42,17 @@
                 <section class="coolcolor1">
                         <div id="large-header" class="large-header">
                             <canvas id="demo-canvas"></canvas>
-                            <h2 class="main-title">HI, I LOVE DESIGNING AND BUILDING.
+                            <script src="jquery.js"></script>
+                            <script src="typed.js"></script>
+                            <script>
+                              $(function(){
+                                $(".element").typed({
+                                  strings: ["First sentence.", "Second sentence."],
+                                  typeSpeed: 0
+                                });
+                              });
+                            </script>
+                            <h2 id="main-title">HI, I LOVE DESIGNING AND BUILDING.
                                 <br></br>
                                 <span class="explain">I am a software developer and a student at the University of Washington in the
                                     Computer Science department. I enjoy using my creativity to create unique,
