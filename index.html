@@ -17,6 +17,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <script src="assets/js/app.js"></script>
     <script src="assets/js/rAF.js"></script>
+    <script src="assets/js/typed.js"></script>
     <script src="assets/js/TweenLite.min.js"></script>
     <script src="assets/js/EasePack.min.js"></script>
 </head>
@@ -42,21 +43,26 @@
                 <section class="coolcolor1">
                         <div id="large-header" class="large-header">
                             <canvas id="demo-canvas"></canvas>
-                            <script src="jquery.js"></script>
-                            <script src="typed.js"></script>
                             <script>
                               $(function(){
                                 $(".element").typed({
-                                  strings: ["First sentence.", "Second sentence."],
-                                  typeSpeed: 0
+                                  strings: ["DESIGNING.", "CODING.", "CREATING.", "SLEEPING", "INNOVATING"],
+                                  typeSpeed: 0,
+                                  startDelay: 1500,
+                                  backDelay: 1500,
+                                  loop: true,
+                                  loopCount: false
                                 });
                               });
                             </script>
-                            <h2 id="main-title">HI, I LOVE DESIGNING AND BUILDING.
-                                <br></br>
-                                <span class="explain">I am a software developer and a student at the University of Washington in the
-                                    Computer Science department. I enjoy using my creativity to create unique,
-                                    effective applications.</span></h2>
+                            <h2 id="main-title">
+                              HI, I LOVE
+                              <span class="element">
+                              </span>
+                              <br></br>
+                              <span class="explain">I am a software developer and a student at the University of Washington in the
+                                  Computer Science department. I enjoy using my creativity to create unique,
+                                  effective applications.</span></h2>
                             </h1>
                         </div>
                 </section>
