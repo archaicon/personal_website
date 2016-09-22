@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
     $(document).on("scroll", function(){
-        if ($(document).scrollTop() > 460){
+        if ($(document).scrollTop() > 100){
             $("header").addClass("shrink");
             $("h6").addClass("noshow");
             $("li").addClass("afterlis");
