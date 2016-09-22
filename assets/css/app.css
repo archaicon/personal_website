@@ -24,7 +24,6 @@ header {
     z-index: 9999;
     position: fixed;
     -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.45s ease-in-out;
 }
 
 header p{
@@ -42,13 +41,7 @@ header p{
 }
 
 .shrink p{
-    color: #2d2a2e;
-}
-
-.shrink p:hover{
-    color: #ff9226;
-    text-decoration: none;
-    -webkit-transition: all 0.3s ease-in-out;
+    color: #85144b;
 }
 
 h6 {
@@ -106,12 +99,12 @@ li{
 li a{
     text-decoration: none;
     position: relative;
-    color: rgba(45, 42, 46, 0.63);
+    color: #85144b;
 }
 
 li a:hover{
     text-decoration: none;
-    color: #ff9226;
+    color: darkorange;
     -webkit-transition: all 0.35s ease-in-out;
     -moz-transition: all 0.35s ease-in-out;
 }
@@ -311,8 +304,7 @@ img{
 
 #links a:hover{
     color: #ff550f;
-    -webkit-transition: all 0.2s ease-in-out;
-    -moz-transition: all 0.2s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
 }
 
 .large-header {
@@ -346,4 +338,29 @@ img{
     .demo-1 .main-title {
         font-size: 3em;
     }
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }
