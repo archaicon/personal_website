@@ -41,7 +41,7 @@ header p{
 }
 
 .shrink p{
-    color: #85144b;
+    color: #770a85;
 }
 
 h6 {
@@ -99,14 +99,17 @@ li{
 li a{
     text-decoration: none;
     position: relative;
-    color: #85144b;
+    color: #770a85;
+    -webkit-transition: all 0.35s ease-in;
+    -moz-transition: all 0.35s ease-in;
 }
 
 li a:hover{
     text-decoration: none;
-    color: darkorange;
-    -webkit-transition: all 0.35s ease-in-out;
-    -moz-transition: all 0.35s ease-in-out;
+    color: #770a85;
+    font-size: 25px;
+    -webkit-transition: all 0.35s ease-out;
+    -moz-transition: all 0.35s ease-out;
 }
 
 li a:after{
@@ -115,7 +118,7 @@ li a:after{
     bottom: 0;
     left: 0;
     width: 0%;
-    border-bottom: 3px solid #ff8913;
+    border-bottom: 3px solid #770a85;
     transition: 0.4s;
 }
 
