@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+  // adding in delay for the header
+
     $(document).on("scroll", function(){
         if ($(document).scrollTop() > 100){
             $("header").addClass("shrink");
